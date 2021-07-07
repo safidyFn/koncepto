@@ -1,0 +1,70 @@
+@media screen and (max-width: 480px) {
+    .maintenance-mode {
+        background-image: url("../images/fond-mobile.jpg") !important;
+    }
+    h1 {
+        width: 100%;
+    }
+    .logo-pr {
+        width: 65% !important;
+    }
+}
+
+.maintenance-mode {
+    height: 100vh;
+    background-image: url("../images/fond-en-construction.jpg");
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#konception {
+    padding: 9vh 0;
+}
+
+.bg-noir {
+    background-color: #3d3837;
+}
+
+.bg-noir {
+    background-color: #3d3837;
+    width: 100%;
+}
+
+h1 {
+    font-size: 8vh !important;
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: "Tw Cen bold";
+    top: 65%;
+}
+
+.logo-pr {
+    position: absolute;
+    width: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+@media screen and (max-width: 480px) {
+    .maintenance-mode {
+        background-size: cover !important;
+    }
+    h1 {
+        text-align: center !important;
+        font-size: 32px !important;
+    }
+}

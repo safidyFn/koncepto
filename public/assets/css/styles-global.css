@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Tw Cen regular";
+    src: url("../fonts/tw-cen-regular.TTF");
+}
+
+@font-face {
+    font-family: "Tw Cen bold";
+    src: url("../fonts/tw-cen-bold.TTF");
+}
+
+@font-face {
+    font-family: "Tw Cen italic";
+    src: url("../fonts/tw-cen-italic.TTF");
+}
+
+@font-face {
+    font-family: "Tw Cen italic bold";
+    src: url("../fonts/tw-cen-italic-bold.TTF");
+}
+
+@font-face {
+    font-family: "Tw Cen condensed";
+    src: url("../fonts/tw-cen-condensed.TTF");
+}
+
+@font-face {
+    font-family: "Tw Cen condensed bold";
+    src: url("../fonts/tw-cen-condensed-bold.TTF");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Tw Cen Bold";
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+.tab-content > .active, .pill-content > .active {
+    opacity: 1 !important;
+}
+
+
+.tab-content > .active, .pill-content > .active {
+    opacity: 1 !important;
+  }
+  #myTab {
+    border: 0;
+    font-family: "Tw Cen regular";
+  }
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border: 0;
+  }
+  .nav-item button {
+    font-family: "Tw Cen regular" !important;
+    color: black;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border: 0 !important;
+    transition: 0 !important;
+}
+.nav-tabs .nav-link, .nav-tabs .nav-link {
+    border: 0 !important;
+    transition: 0 !important;
+}
+.nav-tabs .nav-link.active {
+    color: black !important;
+    position: relative;
+  }
+  .nav-tabs .nav-link.active::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    background: #BA8A4E;
+    left: 0;
+    bottom: 0;
+  }
+  .nav-link:focus, .nav-link:hover {
+      color: #BA8A4E !important;
+  }
