@@ -79,7 +79,7 @@
                 <li class="nav-item" role="presentation">
                     <button 
                         class="nav-link" 
-                        id="culturel" 
+                        id="culturel-tab" 
                         data-bs-toggle="tab" 
                         data-bs-target="#culturel" 
                         type="button" 
@@ -90,13 +90,24 @@
                 <li class="nav-item" role="presentation">
                     <button 
                         class="nav-link" 
-                        id="micro-architecture" 
+                        id="industriel-tab" 
                         data-bs-toggle="tab" 
-                        data-bs-target="#micro-arch" 
+                        data-bs-target="#industriel" 
                         type="button" 
                         role="tab" 
-                        aria-controls="micro-arch" 
-                        aria-selected="false">Micro architecture</button>
+                        aria-controls="industriel" 
+                        aria-selected="false">industriel</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button 
+                        class="nav-link" 
+                        id="urbanisme-tab" 
+                        data-bs-toggle="tab" 
+                        data-bs-target="#urbanisme" 
+                        type="button" 
+                        role="tab" 
+                        aria-controls="urbanisme" 
+                        aria-selected="false">Urbanisme</button>
                 </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
@@ -104,19 +115,134 @@
                         class="tab-pane fade show active" 
                         id="tous" 
                         role="tabpanel" 
-                        aria-labelledby="tous-tab">Tab</div>
+                        aria-labelledby="tous-tab">
+                            <div class="project">
+                                <a class="links" href="prospect"></a>
+                                <div class="img_project">
+                                    <img src="assets/images/villa.jpg" alt="">
+                                </div>
+                                <div class="top_description">
+                                    <h2>
+                                        Villa type 3
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="project">
+                                <a class="links" href="prospect"></a>
+                                <div class="img_project">
+                                    <img src="assets/images/villa.jpg" alt="">
+                                </div>
+                                <div class="top_description">
+                                    <h2>
+                                        Villa type 3
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="project">
+                                <a class="links" href="prospect"></a>
+                                <div class="img_project">
+                                    <img src="assets/images/villa.jpg" alt="">
+                                </div>
+                                <div class="top_description">
+                                    <h2>
+                                        Villa type 3
+                                    </h2>
+                                </div>
+                            </div>
+                    </div>
                     <div 
                         class="tab-pane fade" 
                         id="Residentiel" 
                         role="tabpanel" 
-                        aria-labelledby="residentiel-tab">Residentiel</div>
+                        aria-labelledby="residentiel-tab">
+                            <div class="project">
+                                <a class="links" href="prospect"></a>
+                                <div class="img_project">
+                                    <img src="assets/images/villa.jpg" alt="">
+                                </div>
+                                <div class="top_description">
+                                    <h2>
+                                        Villa type 3
+                                    </h2>
+                                </div>
+                            </div>
+                    </div>
                     <div 
                         class="tab-pane fade" 
                         id="micro-arch" 
                         role="tabpanel" 
-                        aria-labelledby="micro-architecture">!!!</div>
+                        aria-labelledby="micro-architecture"><div class="project">
+                                <a class="links" href="prospect"></a>
+                                <div class="img_project">
+                                    <img src="assets/images/villa.jpg" alt="">
+                                </div>
+                                <div class="top_description">
+                                    <h2>
+                                        Villa type 3
+                                    </h2>
+                                </div>
+                            </div></div>
+                    <div 
+                        class="tab-pane fade" 
+                        id="commercial" 
+                        role="tabpanel" 
+                        aria-labelledby="commercial-tab"><div class="project">
+                                <a class="links" href="prospect"></a>
+                                <div class="img_project">
+                                    <img src="assets/images/villa.jpg" alt="">
+                                </div>
+                                <div class="top_description">
+                                    <h2>
+                                        Villa type 3
+                                    </h2>
+                                </div>
+                            </div></div>
+                    <div 
+                        class="tab-pane fade" 
+                        id="culturel" 
+                        role="tabpanel" 
+                        aria-labelledby="culturel-tab"><div class="project">
+                                <a class="links" href="prospect"></a>
+                                <div class="img_project">
+                                    <img src="assets/images/villa.jpg" alt="">
+                                </div>
+                                <div class="top_description">
+                                    <h2>
+                                        Villa type 3
+                                    </h2>
+                                </div>
+                            </div></div>
+                    <div 
+                        class="tab-pane fade" 
+                        id="industriel" 
+                        role="tabpanel" 
+                        aria-labelledby="industriel-tab"><div class="project">
+                                <a class="links" href="prospect"></a>
+                                <div class="img_project">
+                                    <img src="assets/images/villa.jpg" alt="">
+                                </div>
+                                <div class="top_description">
+                                    <h2>
+                                        Villa type 3
+                                    </h2>
+                                </div>
+                            </div></div>
+                    <div 
+                        class="tab-pane fade" 
+                        id="urbanisme" 
+                        role="tabpanel" 
+                        aria-labelledby="urbanisme-tab"><div class="project">
+                                <a class="links" href="prospect"></a>
+                                <div class="img_project">
+                                    <img src="assets/images/villa.jpg" alt="">
+                                </div>
+                                <div class="top_description">
+                                    <h2>
+                                        Villa type 3
+                                    </h2>
+                                </div>
+                            </div></div>
                 </div>
-
             </div>
         </div>
     </section>

@@ -96,3 +96,84 @@ h4 {
   .nav-link:focus, .nav-link:hover {
       color: #BA8A4E !important;
   }
+  .nav-tabs .nav-link, .nav-tabs .nav-link {
+    font-size: 18px;
+  }
+  #myTab {
+    justify-content: space-between;
+  }
+
+  
+  .project .img_project {
+    width: 100%;
+    filter: grayscale(1);
+    transition: all ease-in-out 0.4s;
+  }
+  .project {
+    width: 350px;
+    padding: 0 !important;
+    position: relative;
+  }
+  .project .top_description {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0 20px;
+  }
+  .project .top_description h2 {
+    font-size: 18px;
+    margin: 0;
+    color: white;
+  }
+  .project .links {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+}
+
+.project:hover .img_project {
+    filter: unset;
+    transition: all ease-in-out 0.4s;
+}
+.project:hover .top_description {
+    transform: translate(-100px, -100px);
+    transition: all ease-in-out 0.4s;
+  }
+  .project .top_description {
+    transition: all ease-in-out 0.4s;
+  }
+  .project {
+    transition: all ease-in-out 0.4s;
+  }
+  .project:hover {
+    transition: all ease-in-out 0.4s;
+  }
+  .tab-content > div {
+    display: flex !important;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tab-content > div {
+    display: none !important;
+  }
+  .tab-content > div.active {
+    display: flex !important;
+  }
+
+  .carouselProject .container {
+    max-width: unset !important;
+    width: auto !important;
+}
+.carouselProject .carousel-control-prev-icon {
+  left: -8em;
+}
+.carouselProject .carousel-control-next-icon {
+  right: -8em;
+}
