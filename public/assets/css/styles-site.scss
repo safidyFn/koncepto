@@ -388,41 +388,73 @@ footer a {
 #articles .col-12 {
     padding: 0 !important;
 }
+.carousel_home_proj {
+    & .carousel-indicators {
+        position: absolute;
+        height: 100%;
+        right: 0;
+        left: auto;
+        transform: translate(100%);
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+      }
+     & .carousel-indicators li {
+        margin: 10px 0 !important;
+        width: 15px !important;
+        height: 15px !important;
+        border-radius: 50px !important;
+        cursor: pointer;
+        background-color: #BA8A4E !important;
+        position: relative;
+      }
+     & .carousel-indicators li.active {
+        background-color: #3D3837 !important;
+      } 
+     & .carousel-indicators li::after {
+        content: "";
+        width: 2px;
+        height: 25px;
+        display: block;
+        background: #BA8A4E;
+        position: absolute;
+        bottom: 0;
+        transform: translate(-100%,100%);
+        left: 50%;
+      }
+     & .carousel-indicators li:last-child::after {
+        display: none;
+      }
+}
 
-.carousel-indicators {
-    position: absolute;
-    height: 100%;
-    right: 0;
-    left: auto;
-    transform: translate(100%);
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-  }
-  .carousel-indicators li {
-    margin: 10px 0 !important;
-    width: 15px !important;
-    height: 15px !important;
-    border-radius: 50px !important;
-    cursor: pointer;
-    background-color: #BA8A4E !important;
-    position: relative;
-  }
-  .carousel-indicators li.active {
-    background-color: #3D3837 !important;
-  }
-  .carousel-indicators li::after {
-    content: "";
-    width: 2px;
-    height: 25px;
-    display: block;
-    background: #BA8A4E;
-    position: absolute;
-    bottom: 0;
-    transform: translate(-100%,100%);
-    left: 50%;
-  }
-  .carousel-indicators li:last-child::after {
-    display: none;
-  }
-  
+.carouselProject {
+    & .carousel-indicators {
+        top: unset;
+        transform: translate(0, 30px);
+        align-items: center;
+      }
+      & .carousel-indicators li {
+        background: #3D3837;
+        width: 15px;
+        height: 15px;
+        border-radius: 50px;
+        margin: 0 8px;
+      }
+      & .carousel-indicators li.active {
+        border: 2px solid white !important;
+        width: 19px;
+        height: 19px;
+        box-shadow: 0px 0px 3px #3D3837;
+      }
+}
+    
+
+
+#tablemark {
+    width: 100%;
+    color: white;
+    &  td {
+        border: 2px solid;
+        text-align: center;
+    }
+}

@@ -33,7 +33,7 @@
         <div class="container">
             <h2 class="title_pages mb-4">Projets  en cours</h2>
 
-            <div id="carouselExampleIndicators" class="carousel carousel-fade slide" data-ride="carousel">
+            <div id="carouselExampleIndicators" class="carousel carousel_home_proj carousel-fade slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -42,7 +42,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="row">
-                            <div class="col-4 bg-marron2">
+                            <div class="col-12 col-sm-4 bg-marron2">
                                 <div class="module-project text-light">
                                     <h2 class="mb-3">Local Lorem ipsum </h2>
                                     <div class="project-details mb-5">
@@ -58,7 +58,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-8 p-0">
+                            <div class="col-12 col-sm-8 p-0">
                                 <div>
                                     <img src="assets/images/projet-1.jpg" width="100%" alt="">
                                 </div>
@@ -67,7 +67,7 @@
                     </div>
                     <div class="carousel-item">
                         <div class="row">
-                            <div class="col-4 bg-marron2">
+                            <div class="col-12 col-sm-4 bg-marron2">
                                 <div class="module-project text-light">
                                     <h2 class="mb-3">Local Lorem ipsum </h2>
                                     <div class="project-details mb-5">
@@ -83,7 +83,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-8 p-0">
+                            <div class="col-12 col-sm-8 p-0">
                                 <div>
                                     <img src="assets/images/projet-1.jpg" width="100%" alt="">
                                 </div>
@@ -92,7 +92,7 @@
                     </div>
                     <div class="carousel-item">
                         <div class="row">
-                            <div class="col-4 bg-marron2">
+                            <div class="col-12 col-sm-4 bg-marron2">
                                 <div class="module-project text-light">
                                     <h2 class="mb-3">Local Lorem ipsum </h2>
                                     <div class="project-details mb-5">
@@ -108,7 +108,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-8 p-0">
+                            <div class="col-12 col-sm-8 p-0">
                                 <div>
                                     <img src="assets/images/projet-1.jpg" width="100%" alt="">
                                 </div>
@@ -132,8 +132,8 @@
                             <div class="col-12">
                                 <div class="slider-cont">
                                     <div class="d-flex">
-                                        <div class="col-6"></div>
-                                        <div class="col-6">
+                                        <div class="col-12 col-sm-6"></div>
+                                        <div class="col-12 col-sm-6">
                                             <div class="text-cont">
                                                 <h3 class="text-marron2 text-uppercase text-center">Lorem ipsum </h3>
                                                 <p class="text-center">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
@@ -151,8 +151,8 @@
                             <div class="col-12">
                                 <div class="slider-cont">
                                     <div class="d-flex">
-                                        <div class="col-6"></div>
-                                        <div class="col-6">
+                                        <div class="col-12 col-sm-6"></div>
+                                        <div class="col-12 col-sm-6">
                                             <div class="text-cont">
                                                 <h3 class="text-marron2 text-uppercase text-center">Lorem ipsum </h3>
                                                 <p class="text-center">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>
@@ -170,8 +170,8 @@
                             <div class="col-12">
                                 <div class="slider-cont">
                                     <div class="d-flex">
-                                        <div class="col-6"></div>
-                                        <div class="col-6">
+                                        <div class="col-12 col-sm-6"></div>
+                                        <div class="col-12 col-sm-6">
                                             <div class="text-cont">
                                                 <h3 class="text-marron2 text-uppercase text-center">Lorem ipsum </h3>
                                                 <p class="text-center">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy</p>

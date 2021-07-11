@@ -1,7 +1,7 @@
 <header id="header_pages" class="">
         <div class="container">
             <div class="row py-5 align-items-center">
-                <div class="col-3">
+                <div class="col-8 col-sm-3">
                     <div id="logo">
                         <div class="logo_container">
                             <span>
@@ -12,7 +12,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-4 col-sm-6">
+                    <div id="menu_mobile"></div>
+                    <div id="subMenu">
+
+                    </div>
                     <nav id="menu_navigations">
                         <div class="menu_lists">
                             <ul class="list-unstyled d-flex justify-content-evenly">
@@ -32,7 +36,7 @@
                         </div>
                     </nav>
                 </div>
-                <div class="col-3">
+                <div class="col-sm-3">
                 
                 </div>
             </div>

@@ -24,4 +24,9 @@ function scrollTop() {
 //scrollTop();
 
 
-  
+jQuery(document).ready(function($){
+    jQuery('.menu_lists ul').clone().appendTo('#subMenu');
+    jQuery('#menu_mobile').on('click', function(e) {
+        jQuery('#subMenu').toggleClass('show')
+      })
+})

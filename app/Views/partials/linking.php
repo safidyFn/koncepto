@@ -17,6 +17,8 @@
 
     <link rel="stylesheet" href="<?php echo base_url('assets/css/styles-global.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/styles-site.css'); ?>">
+    <link rel="stylesheet" 
+    href="<?php echo base_url('assets/css/responsive-design.css'); ?>">
 
     <link rel="shortcut icon" href="<?php echo base_url('favicon.png'); ?>" type="image/x-icon">
 </head>
