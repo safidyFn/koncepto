@@ -1,13 +1,13 @@
 @media screen and (max-width : 480px) {
     #menu_mobile::before {
         content: "";
-background-image: url('../images/menu.png');
-width: 25px;
-height: 25px;
-display: block;
-background-size: contain;
-cursor: pointer;
-background-position: center;
+  background-image: url('../images/menu.png');
+  width: 25px;
+  height: 25px;
+  display: block;
+  background-size: contain;
+  cursor: pointer;
+  background-position: center;
     }
     
 #menu_navigations {
@@ -17,7 +17,9 @@ background-position: center;
     width: 100%;
     position: absolute;
     left: 0;
-    background: red;
+    background: #3d3837;
+    margin-top: 15px;
+    padding: 15px;
   }
   #subMenu ul {
     display: block !important;
@@ -46,7 +48,94 @@ background-position: center;
     body {
         padding: 0 !important;
     }
+    #subMenu li a {
+      color: white;
+    }
+    #subMenu li {
+      margin: 10px 0;
+    }
+    .column-wrapper {
+      padding-left: 15px !important;
+      margin-bottom: 15px;
+  }
+  .slider-cont .text-cont {
+    padding: 15px !important;
+}
+#carouselArcticles {
+  text-align: center;
+}
+#carouselArcticles > a {
+  position: relative;
+  display: inline-block;
+  margin-top: 15px;
+}
+.container-image.fond {
+  text-align: center !important;
+}
+#carouselArcticles > a > span {
+  left: unset;
+  right: unset;
+}
+.container-modules-imgs .module-imgs {
+  margin-bottom: 15px;
+}
+.containermateriaux {
+  margin: 0 !important;
+}
+#projects .carousel-indicators {
+  position: relative;
+  left: unset;
+  right: unset !important;
+  transform: unset !important;
+  flex-direction: row !important;
+}
+#projects .carousel-indicators li::after {
+  display: none !important;
+}
+#projects .carousel-indicators li {
+  margin: 0 5px !important;
+}
+.container-contacts .contact {
+  max-width: 100% !important;
+}
+#ContactForms1 {
+  max-width: 100% !important;
+}
+#myTabContent > div {
+  row-gap: 20px !important;
+}
 }
 @media screen and (min-width: 480px) and (max-width : 768px) {
     
+}
+
+@media screen and (min-width : 768px) {
+  #subMenu {
+    display: none;
+  }
+  
+.img_foot img {
+  position: absolute;
+  width: 65%;
+  transform: rotate(90deg) translate(35%, 100%);
+  top: 0;
+  left: 0;
+}
+.project-details .numero_projet::before {
+  content: "";
+  background: white;
+  width: 90px;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translate(-100%, -100%);
+}
+
+.container-modules-imgs {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 20px;
+}
+
 }

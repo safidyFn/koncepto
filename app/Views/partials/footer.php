@@ -1,20 +1,20 @@
 <footer class="py-5 bg-marron2">
     <div class="container">
         <div class="row">
-            <div class="col-6 col-sm-3">
+            <div class="col-12 col-sm-3">
                 <div id="footer-invert">
                     <div class="img_foot">
                         <img src="assets/images/Logo.png" alt="">
                     </div>
                 </div>
             </div>
-            <div class="col-6 col-sm-3">
+            <div class="col-12 col-sm-3">
                 <div class="footer-links">
                     <h2 class="text-capitalize">à propos</h2>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus</p>
                 </div>
             </div>
-            <div class="col-6 column-wrapper col-sm-3">
+            <div class="col-12 column-wrapper col-sm-3">
                 <div class="footer-links">
                     <h2 class="text-capitalize">Pages</h2>
                     <ul class="list-unstyled">
@@ -33,7 +33,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-6 col-sm-3">
+            <div class="col-12 col-sm-3">
                 <div class="list-adress">
                     <div class="phone adress_footer">
                         <div class="phone_img">
@@ -66,10 +66,10 @@
             </div>
         </div>
         <div class="row py-3">
-            <div class="col-3">
+            <div class="col-sm-3">
 
             </div>
-            <div class="col-9">
+            <div class="col-12 col-sm-12">
                 <div class="linking-g text-light">
                     <a href="#">Politique de confidentialité</a> | <a href="#">Mentions légales </a>
                 </div>

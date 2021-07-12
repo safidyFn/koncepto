@@ -101,14 +101,7 @@ a {
 .img_foot {
     position: relative;
 }
-
-.img_foot img {
-    position: absolute;
-    width: 65%;
-    transform: rotate(90deg) translate(35%, 100%);
-    top: 0;
-    left: 0;
-}
+ 
 
 .footer-links {
     color: white;
@@ -259,12 +252,6 @@ footer a {
     margin-bottom: 15px;
 }
 
-.container-modules-imgs {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    column-gap: 20px;
-}
-
 .container-modules-imgs .module-imgs:nth-child(odd) {
     background: $csecondaire;
 }
@@ -366,16 +353,7 @@ footer a {
     font-size: 26px;
     border-radius: 50px;
   }
-  .project-details .numero_projet::before {
-    content: "";
-    background: white;
-    width: 90px;
-    height: 1px;
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translate(-100%, -100%);
-  }
+  
   .module-project {
     padding: 20px;
 }

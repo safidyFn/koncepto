@@ -131,7 +131,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="slider-cont">
-                                    <div class="d-flex">
+                                    <div class="d-lg-flex">
                                         <div class="col-12 col-sm-6"></div>
                                         <div class="col-12 col-sm-6">
                                             <div class="text-cont">
@@ -150,7 +150,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="slider-cont">
-                                    <div class="d-flex">
+                                    <div class="d-lg-flex">
                                         <div class="col-12 col-sm-6"></div>
                                         <div class="col-12 col-sm-6">
                                             <div class="text-cont">
@@ -169,7 +169,7 @@
                         <div class="row">
                             <div class="col-12">
                                 <div class="slider-cont">
-                                    <div class="d-flex">
+                                    <div class="d-lg-flex">
                                         <div class="col-12 col-sm-6"></div>
                                         <div class="col-12 col-sm-6">
                                             <div class="text-cont">

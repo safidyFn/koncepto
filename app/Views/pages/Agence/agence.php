@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="col-12 col-sm-7">
-                    <div class="ps-5">
+                    <div class="ps-sm-5">
                         <h2 class="title_pages mb-3">Koncepto</h2>
                         <p>Koncepto est une jeune agence d'architecture spécialisée en 'éco-construction et conception bioclimatique, basée à Madagascar. </p>
                     </div>
@@ -72,7 +72,7 @@
                 <h2 class="title_pages mb-5">CONCEPTION BIOCLIMATIQUE</h2>
             </div>
             <div class="col-12 containermateriaux">
-                <div class="d-flex align-items-center">
+                <div class="d-lg-flex align-items-center">
                     <div class="image-active col-4">
                         <img src="assets/images/bambou.jpg" width="100%" alt="Bambou">
                     </div>
