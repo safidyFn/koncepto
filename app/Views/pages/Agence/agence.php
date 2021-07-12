@@ -82,6 +82,39 @@
                         <p class="text-light">Cette plante à croissance rapide est un matériau à la fois souple et très robuste. Présent sur tous les continents, il est écologique et bon marché et peut aussi bien servir en structure qu’en plancher ou paroi et même en couverture.</p>
                     </div>
                 </div>
+                <div class="my-5">
+                    <div class="main">
+                        <div class="autoplay slider slider-nav">
+                            <div>
+                                <div>
+                                    <img src="assets/images/Chaux.png" alt="">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="assets/images/bambou.jpg" alt="">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="assets/images/Terre.png" alt="">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="assets/images/bambou.jpg" alt="">
+                                </div>
+                            </div>
+                            <div>
+                                <div>
+                                    <img src="assets/images/Terre.png" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 

@@ -21,16 +21,16 @@
                         <div class="menu_lists">
                             <ul class="list-unstyled d-flex justify-content-evenly">
                                 <li>
-                                    <a class="active" href="/accueil">Accueil</a>
+                                    <a data-page="accueil" href="/accueil">Accueil</a>
                                 </li>
                                 <li>
-                                    <a href="/agence">L'agence</a>
+                                    <a data-page="agence"  href="/agence">L'agence</a>
                                 </li>
                                 <li>
-                                    <a href="/projects">Projets</a>
+                                    <a data-page="projects"  href="/projects">Projets</a>
                                 </li>
                                 <li>
-                                    <a href="/contact">Contact</a>
+                                    <a data-page="contact"  href="/contact">Contact</a>
                                 </li>
                             </ul>
                         </div>

@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/css/styles-site.css'); ?>">
     <link rel="stylesheet" 
     href="<?php echo base_url('assets/css/responsive-design.css'); ?>">
-
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="shortcut icon" href="<?php echo base_url('favicon.png'); ?>" type="image/x-icon">
 </head>
 

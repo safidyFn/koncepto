@@ -1,6 +1,6 @@
 <?php echo view('partials/linking') ?>
 <?php echo view('partials/header'); ?>
-<section class="baniere_home d-flex">
+    <section class="baniere_home d-flex">
         <div class="row mx-0 w-100">
             <div class="col-3">
             
@@ -96,7 +96,7 @@
     <section class="py-5">
         <div class="container">
             <div class="row">
-                <div class="col-5">
+                <div class="col-12 col-sm-5">
                     <div>
                         <table id="tablemark" cellpadding="10">
                             <tr class="bg-marron1">
@@ -145,7 +145,7 @@
                         </table>
                     </div>
                 </div>
-                <div class="col-7">
+                <div class="col-12 col-sm-7">
                     <div class="module-description">
                         <p>Le programme s’articule autour de trois axes, se proposant chacun de répondre à un des trois enjeux majeurs de la commune. La ressourcerie, en tant qu’équipement intercommunal, permet de réinsérer la commune dans son tissu géographique en favorisant la collaboration avec les villes voisines.</p>
                         <p>L’unité de production d’engrais biologique, quant à elle, encourage à la fois la diversification des secteurs économiques de la commune et l’émergence d’une économie circulaire. Enfin, le pôle touristique, avec ses hébergements et services associés, permet de pallier au manque d’infrastructures dans le domaine. Une attention particulière a été portée au traitement des espaces publics, notamment le long des 500 mètres de berge, dont l’aménagement a été guidé par une technique de dépollution écologique : la phytoremédia</p>

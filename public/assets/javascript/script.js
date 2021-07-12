@@ -29,4 +29,39 @@ jQuery(document).ready(function($){
     jQuery('#menu_mobile').on('click', function(e) {
         jQuery('#subMenu').toggleClass('show')
       })
+
+      if (window.innerWidth > 768) {
+        $('.autoplay').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            dots : true
+          });
+      }
+      else {
+        $('.autoplay').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            dots : true
+          });
+      }
+      
+
+      function getActive() {
+        var activeLink = window.location.pathname;
+        $('.menu_lists li').each(function(i){
+            var attr = $(this).find('a').attr('data-page');
+            var link = activeLink.replace('/','')
+
+            if ( attr == link ) {
+                $(this).find('a').addClass('active');
+            }
+        })
+      }
+
+      getActive();
+
 })
